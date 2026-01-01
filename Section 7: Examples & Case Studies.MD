@@ -33,19 +33,20 @@ Scoring and enforcement implications
 Dataset Description
 A retail customer master dataset used for identity, segmentation, and analytics.
 
-Attribute Classification Table
-Attribute	Tier	Continuum Score	Rationale
-Customer_ID	Essential	98	Defines identity of the customer
-First_Name	Essential	85	Required for customer‑facing operations
-Last_Name	Essential	88	Required for identity and communication
-Email	E–C	78	Essential for digital workflows, contextual otherwise
-Phone_Number	E–C	72	Required in some workflows, optional in others
-Age	Contextual	65	Enhances segmentation and interpretation
-Gender	Contextual	58	Supports analytics but not identity
-Region	Contextual	60	Required for interpretation and routing
-Loyalty_Score	Enrichment	30	Analytical depth only
-Preferred_Channel	C–N	45	Contextual for marketing, enrichment otherwise
+Attribute	        Tier	      Continuum Score	    Rationale
+Customer_ID	      Essential	    98	            Defines identity of the customer
+First_Name	      Essential	    85	            Required for customer facing operations
+Last_Name	        Essential	    88	            Required for identity and communication
+Email	            E–C	          78	            Essential for digital workflows,                                                         contextual otherwise
+Phone_Number	    E–C	          72	            Required in some workflows, optional in                                                  others
+Age	              Contextual	  65	            Enhances segmentation and interpretation
+Gender	          Contextual	  58	            Supports analytics but not identity
+Region	          Contextual	  60	            Required for interpretation and routing
+Loyalty_Score	    Enrichment	  30	            Analytical depth only
+Preferred_Channel	  C–N	        45	            Contextual for marketing, enrichment                                                     otherwise
+
 Scoring Implications
+
 Missing Customer_ID → Critical failure
 
 Missing Email → Conditional failure (digital workflows)
@@ -55,6 +56,7 @@ Missing Age → Interpretability loss
 Missing Loyalty_Score → Minimal penalty
 
 Governance Notes
+
 Essential attributes require strict enforcement
 
 E–C attributes require conditional enforcement
@@ -68,18 +70,21 @@ Dataset Description
 A product catalog used for inventory, pricing, and analytics.
 
 Attribute Classification Table
-Attribute	Tier	Continuum Score	Rationale
-SKU	Essential	100	Defines product identity
-Product_Name	Essential	92	Required for all business functions
-Brand	E–C	75	Essential in retail, contextual in logistics
-Category	Contextual	70	Required for classification and analytics
-Subcategory	Contextual	62	Enhances interpretability
-Price	Essential	90	Required for transactions
-Cost	C–N	48	Contextual for finance, enrichment for analytics
-Color	Enrichment	25	Analytical depth only
-Weight	Contextual	55	Required for shipping and logistics
-Rating	Enrichment	20	Optional analytical attribute
+Attribute	        Tier	          Continuum Score	      Rationale
+SKU	              Essential	      100	                  Defines product identity
+Product_Name	    Essential	      92	                  Required for all business                                                                functions
+Brand	            E–C	            75	                  Essential in retail, contextual                                                          in logistics
+Category	        Contextual	    70	                  Required for classification and                                                          analytics
+Subcategory	      Contextual	    62	                  Enhances interpretability
+Price	            Essential	      90	                  Required for transactions
+Cost	            C–N	            48	                  Contextual for finance,                                                                  enrichment for analytics
+Color	            Enrichment    	25	                  Analytical depth only
+Weight	          Contextual	    55	                  Required for shipping and                                                                logistics
+Rating	          Enrichment	    20	                  Optional analytical attribute
+
+
 Scoring Implications
+
 Missing SKU → Critical failure
 
 Missing Brand → Conditional penalty
@@ -100,17 +105,21 @@ Dataset Description
 A financial transaction dataset used for compliance, reporting, and fraud detection.
 
 Attribute Classification Table
-Attribute	Tier	Continuum Score	Rationale
-Transaction_ID	Essential	100	Defines transaction identity
-Account_ID	Essential	95	Required for linking to customer
-Transaction_Date	Essential	90	Required for compliance
-Amount	Essential	98	Required for financial reporting
-Currency	Contextual	70	Required for interpretation
-Merchant_Category	Contextual	60	Supports analytics and fraud detection
-Device_ID	C–N	40	Enrichment for fraud, contextual for risk
-Geo_Location	C–N	45	Contextual for fraud, enrichment otherwise
-Risk_Score	Enrichment	30	Analytical depth only
-Notes	Enrichment	10	Optional free‑text field
+Attribute	        Tier	        Continuum Score	        Rationale
+Transaction_ID	  Essential	    100	                  Defines transaction identity
+Account_ID	      Essential	    95	                  Required for linking to customer
+Transaction_Date	Essential	    90	                  Required for compliance
+Amount	          Essential	    98	                  Required for financial reporting
+Currency	        Contextual	  70	                  Required for interpretation
+Merchant_Category	Contextual	  60	                  Supports analytics and fraud                                                             detection
+Device_ID	        C–N	          40	                  Enrichment for fraud, 
+                                                      contextual for risk
+Geo_Location	    C–N	          45	                  Contextual for fraud, 
+                                                      enrichment otherwise
+Risk_Score	      Enrichment	  30	                  Analytical depth only
+Notes	            Enrichment	  10	                  Optional free‑text field
+
+
 Scoring Implications
 Missing Amount → Critical failure
 
