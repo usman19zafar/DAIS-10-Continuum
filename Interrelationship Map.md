@@ -1,7 +1,7 @@
 Layered Architecture Diagram (Professional, Clean)
 This is the closest to an enterprise architecture visual.
 
-mermaid
+```mermaid
 flowchart TB
 
     subgraph Meta_Layer [Meta Layer]
@@ -42,6 +42,8 @@ flowchart TB
     JFS --> SFS
 
     SFS --> QFIM
+```
+
 Why this is better:
 
 Uses layered grouping (subgraphs)
@@ -53,7 +55,7 @@ Clean, readable, and publish‑ready
 ⭐ Option 2 — Mindmap (Executive‑level clarity)
 This is excellent for presentations and GitHub READMEs.
 
-mermaid
+```mermaid
 mindmap
   root((Standards Universe))
     Foundational Assumptions
@@ -69,9 +71,10 @@ Extremely clean
 Shows hierarchy instantly
 
 Perfect for executive summaries
-
+```
 ⭐ Option 3 — Left‑to‑Right Architecture (More modern, more readable)
-mermaid
+
+```mermaid
 flowchart LR
 
     FA[Foundational Assumptions] --> DAIS[DAIS-10 Architecture]
@@ -88,6 +91,8 @@ flowchart LR
     JFS --> SFS
 
     SFS --> QFIM
+```
+
 Why this is better:
 
 Horizontal layout is easier to read
@@ -99,7 +104,8 @@ Great for technical documentation
 ⭐ Option 4 — Onion Model (Most professional for standards)
 This is the style used in ISO, NIST, and TOGAF documentation.
 
-mermaid
+```mermaid
+
 flowchart TB
 
     FA((Foundational Assumptions))
@@ -114,6 +120,8 @@ flowchart TB
     DAIS --> DIFS
     DAIS --> SFS
     DAIS --> JFS
+```
+
 Why this is better:
 
 Circular “core‑to‑outer‑layer” representation
@@ -122,10 +130,10 @@ Matches your fractal / infinite‑depth philosophy
 
 Very clean and modern
 
-⭐ Option 5 — Standards Universe Map (Most visually impressive)
+Option 5 — Standards Universe Map (Most visually impressive)
 This is the most “professional” and visually striking.
 
-mermaid
+```mermaid
 graph TD
 
     FA((Foundational Assumptions))
@@ -156,6 +164,8 @@ graph TD
     JFS --> SFS
 
     SFS --> QFIM
+```
+
 Why this is better:
 
 Uses circles for standards
