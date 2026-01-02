@@ -1,5 +1,4 @@
-Layered Architecture Diagram (Professional, Clean)
-This is the closest to an enterprise architecture visual.
+Layered Architecture Diagram 
 
 ```mermaid
 flowchart TB
@@ -44,35 +43,62 @@ flowchart TB
     SFS --> QFIM
 ```
 
-Why this is better:
+```mermaid
+flowchart TD
 
-Uses layered grouping (subgraphs)
+    %% Meta Layer
+    FA[Foundational Assumptions<br/>"Physics / First Principles"]
 
-Looks like a real enterprise architecture stack
+    %% Architecture Layer
+    DAIS[DAIS‑10<br/>"System Architecture"]
 
-Clean, readable, and publish‑ready
+    %% Assurance Layer
+    QFIM[QFIM‑10<br/>"Quality & Inspection Model"]
 
-⭐ Option 2 — Mindmap (Executive‑level clarity)
-This is excellent for presentations and GitHub READMEs.
+    %% Flow Layer
+    DIFS[DIFS‑10<br/>"Data Flow Standard"]
+
+    %% Safety Layer
+    SFS[SFS‑24<br/>"Safety Filter Standard"]
+
+    %% Join Layer
+    JFS[JFS‑24<br/>"Join Framework Standard"]
+
+    %% Relationships
+    FA --> DAIS
+    FA --> QFIM
+    FA --> DIFS
+    FA --> SFS
+    FA --> JFS
+
+    DAIS --> QFIM
+    DAIS --> DIFS
+    DAIS --> SFS
+    DAIS --> JFS
+
+    DIFS --> QFIM
+    DIFS --> SFS
+
+    JFS --> QFIM
+    JFS --> SFS
+
+    SFS --> QFIM
+```
+
+Option 2 — Mindmap (Executive‑level clarity)
 
 ```mermaid
 mindmap
   root((Standards Universe))
     Foundational Assumptions
       DAIS-10 System Architecture
-        QFIM-10 Quality & Inspection
-        DIFS-10 Data Flow
-        SFS-24 Safety Filters
-        JFS-24 Join Framework
-Why this is better:
+        QFIM-10 Quality and Inspection
+        DIFS-10 Data Flow Standard
+        SFS-24 Safety Filter Standard
+        JFS-24 Join Framework Standard
 
-Extremely clean
-
-Shows hierarchy instantly
-
-Perfect for executive summaries
 ```
-⭐ Option 3 — Left‑to‑Right Architecture (More modern, more readable)
+Option 3 — Left‑to‑Right Architecture (More modern, more readable)
 
 ```mermaid
 flowchart LR
@@ -93,16 +119,7 @@ flowchart LR
     SFS --> QFIM
 ```
 
-Why this is better:
-
-Horizontal layout is easier to read
-
-Looks more like a data pipeline
-
-Great for technical documentation
-
-⭐ Option 4 — Onion Model (Most professional for standards)
-This is the style used in ISO, NIST, and TOGAF documentation.
+Option 4 — Onion Model (Most professional for standards)
 
 ```mermaid
 
@@ -122,16 +139,7 @@ flowchart TB
     DAIS --> JFS
 ```
 
-Why this is better:
-
-Circular “core‑to‑outer‑layer” representation
-
-Matches your fractal / infinite‑depth philosophy
-
-Very clean and modern
-
 Option 5 — Standards Universe Map (Most visually impressive)
-This is the most “professional” and visually striking.
 
 ```mermaid
 graph TD
@@ -166,10 +174,3 @@ graph TD
     SFS --> QFIM
 ```
 
-Why this is better:
-
-Uses circles for standards
-
-Uses subgraph grouping
-
-Looks like a professional standards constellation
