@@ -47,22 +47,22 @@ flowchart TB
 flowchart TD
 
     %% Meta Layer
-    FA[Foundational Assumptions<br/>"Physics / First Principles"]
+    FA[Foundational Assumptions]
 
     %% Architecture Layer
-    DAIS[DAIS‑10<br/>"System Architecture"]
+    DAIS[DAIS-10 System Architecture]
 
     %% Assurance Layer
-    QFIM[QFIM‑10<br/>"Quality & Inspection Model"]
+    QFIM[QFIM-10 Quality and Inspection Model]
 
     %% Flow Layer
-    DIFS[DIFS‑10<br/>"Data Flow Standard"]
+    DIFS[DIFS-10 Data Flow Standard]
 
     %% Safety Layer
-    SFS[SFS‑24<br/>"Safety Filter Standard"]
+    SFS[SFS-24 Safety Filter Standard]
 
     %% Join Layer
-    JFS[JFS‑24<br/>"Join Framework Standard"]
+    JFS[JFS-24 Join Framework Standard]
 
     %% Relationships
     FA --> DAIS
@@ -83,6 +83,7 @@ flowchart TD
     JFS --> SFS
 
     SFS --> QFIM
+
 ```
 
 Option 2 — Mindmap (Executive‑level clarity)
