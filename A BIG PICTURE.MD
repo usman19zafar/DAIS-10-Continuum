@@ -1,3 +1,4 @@
+```mermaid
 mindmap
   root((DAIS‑10 CONTINUUM))
 
@@ -100,3 +101,4 @@ mindmap
       Final_signoff
       META_Output_metadata_final
       CTL_Exception_drift_control
+```
