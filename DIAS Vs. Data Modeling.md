@@ -48,14 +48,16 @@ flowchart TD
 ```mermaid
 
 flowchart TD
+
     A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files] 
         --> B[DATA MODELING & ANALYTICS LAYER<br/>Schemas, features, time functions, BI models]
 
-    B --> C[DAIS‑10 LAYER<br/>Dynamic, drift‑aware, pan‑domain governance<br/>Cross‑domain invariants, risk surfaces, lifecycle control]
+    B --> C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
 
     C:::dais
 
-    classDef dais fill=#001f3f,stroke=#001f3f,color=#ffffff,font-weight=bold;
+    classDef dais fill=#001f3f stroke=#001f3f color=#ffffff;
+
 ```
 
 README paragraph for the repo
