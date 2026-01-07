@@ -1,6 +1,6 @@
 DAIS‑10: Data Attribute Importance Standard
 Custom Proprietary License
-Copyright © Dr. Usman Zafar
+Copyright © 2025 Dr. Usman Zafar
 
 1. Ownership
 All intellectual property rights for DAIS‑10, including all models, diagrams, 
