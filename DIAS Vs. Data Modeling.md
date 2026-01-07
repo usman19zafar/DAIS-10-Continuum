@@ -2,10 +2,10 @@
 
 flowchart TD
 
-    A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files] 
+    C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
         --> B[DATA MODELING & ANALYTICS LAYER<br/>Schemas, features, time functions, BI models]
 
-    B --> C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
+    B --> A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files]
 
 ```
 
