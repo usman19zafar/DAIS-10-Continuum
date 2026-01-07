@@ -46,15 +46,22 @@ flowchart TD
 +-------------------------------------------------------------+
 ```
 
+DAIS‑10 does NOT consume or depend on data models.
+DAIS‑10 governs data models.**
+
+So the flow is:
+
+DAIS‑10 → Data Modeling → Data
+Not the other way around.
+
 ```mermaid
 flowchart TD
 
-    A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files] 
-        --> B[DATA MODELING & ANALYTICS LAYER<br/>Schemas, features, time functions, BI models]
+    C[DAIS-10 LAYER<br/>Governance, invariants, drift rules]
+        --> B[DATA MODELING & ANALYTICS<br/>Schemas, features, transformations]
 
-    B --> C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
+    B --> A[RAW / SOURCE DATA<br/>Events, logs, streams, files]
 
-    C
 ```
 
 README paragraph for the repo
