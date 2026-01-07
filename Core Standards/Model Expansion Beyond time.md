@@ -81,6 +81,8 @@
 +---------------------------------------------------------------+
 ```
 
+A more Practical Example will be given when the Safety Module of Big Processing Plants (Assets) will be finished.
+
 
 DAIS‑10 §4.7 — Unified Semantic Event Governance Clause (Standards‑Grade)
 4.7.1 Scope
