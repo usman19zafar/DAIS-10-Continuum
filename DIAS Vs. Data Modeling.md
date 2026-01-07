@@ -1,14 +1,3 @@
-```mermaid
-
-flowchart TD
-
-    C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
-        --> B[DATA MODELING & ANALYTICS LAYER<br/>Schemas, features, time functions, BI models]
-
-    B --> A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files]
-
-```
-
 ```text …diagram… 
 
 +-------------------------------------------------------------+
@@ -50,15 +39,6 @@ So the flow is:
 DAIS‑10 → Data Modeling → Data
 Not the other way around.
 
-```mermaid
-flowchart TD
-
-    C[DAIS-10 LAYER<br/>Governance, invariants, drift rules]
-        --> B[DATA MODELING & ANALYTICS<br/>Schemas, features, transformations]
-
-    B --> A[RAW / SOURCE DATA<br/>Events, logs, streams, files]
-
-```
 
 README paragraph for the repo
 Suggested placement: in the “What is DAIS‑10?” or “How DAIS‑10 relates to traditional data work” section.
