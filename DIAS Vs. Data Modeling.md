@@ -7,10 +7,6 @@ flowchart TD
 
     B --> C[DAIS-10 LAYER<br/>Dynamic, drift aware, pan domain governance<br/>Cross domain invariants, risk surfaces, lifecycle control]
 
-    C:::dais
-
-    classDef dais fill=darkblue stroke=black color=white;
-
 ```
 
 ```text …diagram… 
