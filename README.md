@@ -13,11 +13,11 @@ flowchart TD
 
     C[Master Diagram<br/>Complete system overview.md<br/>Visual mental model] --> D
 
-    D[Core Standards<br/>Section 18: Maturity Model<br/>Foundational rules & definitions] --> E
+    D[Core Standards<br/br/>Foundational rules & definitions] --> E
 
     E[Foundations Folder<br/>Domain Specific Adaptation Guide<br/>Core principles & terminology] --> F
 
-    F[Models Folder<br/>Importance Fading System<br/>DAIS‑10, DIFS‑10, QFIM‑10 models] --> G
+    F[Models Folder<br/>Importance Fading System<br/>DAIS‑10, DIFS‑10, Section 18: Maturity Model QFIM‑10 models] --> G
 
     G[Tables Folder<br/>Generic Attribute Classification Table<br/>Reference structures] --> H
 
