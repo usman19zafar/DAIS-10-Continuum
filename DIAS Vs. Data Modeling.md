@@ -57,7 +57,8 @@ flowchart TD
 
     C:::dais
 
-    classDef dais fill=#001f3f stroke=#001f3f color=#ffffff;
+    classDef dais fill=darkblue stroke=black color=white;
+
 
 ```
 
