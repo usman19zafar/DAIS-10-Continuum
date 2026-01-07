@@ -1,4 +1,5 @@
 ```mermaid
+
 flowchart TD
 
     A[RAW / SOURCE DATA & EVENTS<br/>Operational systems, logs, streams, files] 
@@ -8,7 +9,8 @@ flowchart TD
 
     C:::dais
 
-    classDef dais fill=#001f3f,stroke=#001f3f,color=#ffffff;
+    classDef dais fill=#001f3f stroke=#001f3f color=#ffffff;
+```
 
 ```text …diagram… 
 
