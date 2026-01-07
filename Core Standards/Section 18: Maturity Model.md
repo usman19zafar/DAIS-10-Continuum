@@ -1,4 +1,4 @@
-DAIS‑10 Maturity Model
+SECTION 18: Maturity Model
 DAIS‑10 — Data Attribute Importance Standard
 The DAIS‑10 Maturity Model defines the progression of organizational capability in adopting, implementing, governing, and sustaining the DAIS‑10 standard.
 It provides a structured, measurable framework for assessing:
