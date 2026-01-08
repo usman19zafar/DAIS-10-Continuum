@@ -3,7 +3,7 @@ DAIS‑10 (Data Attribute Importance Standard) is a qualitative framework for cl
 
 Unlike traditional data quality approaches that rely on rigid rules or binary validation, DAIS‑10 models attribute importance as a continuum. Importance does not switch abruptly; it fades gradually across overlapping zones. This fading behavior reflects how real‑world datasets behave and allows for more accurate, flexible, and business‑aligned classification.
 
-DAIS -10 is Evolving evry day, New extensions and application are adding every day.
+DAIS -10 is Evolving evry day, New extensions and application are adding every day.it is Quite imposible for me to keep it in one file and one folder or one repo! Usman
 
 ```mermaid
 flowchart TD
