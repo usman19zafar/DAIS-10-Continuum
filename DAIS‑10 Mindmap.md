@@ -129,3 +129,59 @@ mindmap
       repository-structure.md
       contributions-and-governance.md
 ```
+
+```mermaid
+
+mindmap
+  root((DAIS‑10 Foundational Principles))
+
+    Ontological_Assumptions
+      Importance_is_Qualitative
+      Importance_is_a_Continuum
+      Importance_is_Relative
+      Meaning_Precedes_Mechanics
+
+    Semantic_Assumptions
+      Meaning_Defines_Record
+      Context_Enhances_Interpretation
+      Enrichment_Deepens_Analysis
+      Semantic_Roles_Can_Overlap
+
+    Continuum_Assumptions
+      Importance_Fades_Gradually
+      Overlapping_Zones_Are_Natural
+      Boundaries_Are_Soft
+      Importance_Shifts_Dynamically
+
+    Governance_Assumptions
+      Essential_Requires_Strict_Governance
+      Contextual_Requires_Soft_Governance
+      Enrichment_Requires_Monitoring
+      Overlap_Zones_Require_Conditional_Governance
+      Governance_Must_Reflect_Semantic_Importance
+
+    Analytical_Assumptions
+      Completeness_Is_Tier_Weighted
+      Missing_Essential_Equals_Failure
+      Missing_Contextual_Reduces_Interpretability
+      Missing_Enrichment_Minimal_Penalty
+      Overlap_Zones_Use_Blended_Scoring
+
+    Structural_Assumptions
+      Tier_Based_But_Continuum_Driven
+      DIFS_10_Governs_Fading
+      QFIM_10_Governs_Qualitative_Decay
+      SICM_10_Defines_Semantic_Scale
+      MCM_10_Defines_Meaning_Framework
+
+    Expansion_Assumptions
+      Model_Is_Fractal
+      No_Bottom_In_Exploration
+      Standard_Evolves_With_Use
+      Infinite_Depth_Is_Intentional
+
+    Domain_Assumptions
+      Domain_Agnostic
+      Domain_Context_Shapes_Classification
+      Domain_Rules_Must_Align_With_Semantics
+```
