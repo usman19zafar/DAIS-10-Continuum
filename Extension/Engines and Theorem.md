@@ -1,3 +1,4 @@
+PDF copy is included in another file! 
 1. SIS‑10 — Semantic Interpretation System
 This is the first engine in the DAIS‑10 semantic pipeline.
 
