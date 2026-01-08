@@ -133,7 +133,7 @@ mindmap
 ```mermaid
 
 mindmap
-  root((DAIS‑10 Foundational Principles))
+  root((DAIS‑10 Foundations))
 
     Ontological_Assumptions
       Importance_is_Qualitative
