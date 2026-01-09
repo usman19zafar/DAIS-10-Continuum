@@ -1,7 +1,5 @@
 ""DAIS‑10 is a breakthrough standards framework that treats data not as static information, but as living data — data that ages, drifts, fades, and evolves. Just like a human life, a dataset is never still. Even in silence, it is changing.""
 
-DAIS‑10 is a breakthrough standards framework that treats data not as static information, but as living data — data that ages, drifts, fades, and evolves. Just like a human life, a dataset is never still. Even in silence, it is changing.
-
 Data is:
 
 aging
