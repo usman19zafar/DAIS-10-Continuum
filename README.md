@@ -28,6 +28,64 @@ DAIS‑10 models it.
 
 
 ********************************************************************************************************************
+```mermaid
+DAIS‑10 (Core)
+│
+├── Living Data
+│   ├── Drift
+│   ├── Fading
+│   ├── Degradation
+│   ├── Context Shift
+│   └── Time‑Dependent Meaning
+│
+├── Human Impact
+│   ├── Hope
+│   ├── Progress
+│   ├── Safety
+│   ├── Resilience
+│   └── Life‑Saving Systems
+│
+├── Future Technologies
+│   ├── Autonomous Vehicles
+│   │   ├── Sensor Semantics
+│   │   ├── Real‑Time Scoring
+│   │   └── Drift‑Aware Decisions
+│   ├── Humanoid Robotics
+│   │   ├── Meaning Interpretation
+│   │   ├── Safe Interaction
+│   │   └── Context Awareness
+│   └── AI & Machine Learning
+│       ├── Data Drift
+│       ├── Model Decay
+│       └── Governed Interpretation
+│
+├── Healthcare
+│   ├── Clinical Attributes
+│   ├── Diagnostic Drift
+│   ├── Risk Scoring
+│   ├── Predictive Care
+│   └── Continuous Maturity
+│
+├── Safety‑Critical Systems
+│   ├── SIL(t)
+│   ├── Time‑Based Failure
+│   ├── Degradation Curves
+│   ├── Operational Variance
+│   └── Functional Safety Parallels
+│
+├── Data Engineering
+│   ├── Attribute Classification
+│   ├── Tiering
+│   ├── Scoring
+│   ├── Governance Engine
+│   └── Auditability
+│
+├── Finance & Actuarial
+│   ├── Signal Fading
+│   ├── Portfolio Drift
+│   ├── Dynamic Risk Models
+│   └── Time‑Dependent
+```
 Functional Safety Truth: Time Never Stops
 In functional safety, a plant can be perfectly idle — no pumps running, no valves moving, no alarms triggered — and still be dying.
 
