@@ -14,7 +14,7 @@ flowchart TD
 
     C[Master Diagram<br/>Complete system overview.md<br/>Visual mental model] --> D
 
-    D[Core Standards<br/br/>Foundational rules & definitions] --> E
+    D[Core Standards<br/>Foundational rules & definitions] --> E
 
     E[Foundations Folder<br/>Domain Specific Adaptation Guide<br/>Core principles & terminology] --> F
 
@@ -29,8 +29,8 @@ flowchart TD
     J[Audit & Testing Folder<br/>DAIS‑10 Test Cases<br/>Verification & validation] --> K
 
     K[License.md<br/>Governance & usage constraints]
-```
 
+```
 
 DAIS‑10 is powered by the Data Importance Fading System (DIFS‑10) and the Qualitative Fading Importance Model (QFIM‑10), which together describe how attribute importance transitions across semantic gradients. These models enable DAIS‑10 to support soft boundaries, nuanced scoring, and infinite depth of analysis.
 
