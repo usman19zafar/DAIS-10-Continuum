@@ -55,6 +55,8 @@ DAIS‑10 brings this same truth into data.
 *******************************************************************************************************************
 
 Data Is Not Information — It Is a Story of Living Data
+
+
 Data is not a column.
 Data is not a field.
 Data is not a table.
