@@ -42,15 +42,24 @@ DAIS‑10 treats meaning as structural, not temporal.
 
 
 ```code
-DAIS‑10 Dimensions Beyond Trend & Context (De‑duplicated Table)
-Dimension	Traditional Analytics	DAIS‑10 Layer	What It Adds
-Trend	Meaning from time	Integration	Direction, momentum, acceleration
-Context	Meaning from environment	Discovery	Situational relevance
-Structure	Rarely used	Alignment	Meaning from relationships
-Intent	Not used	Intent	Meaning from purpose
-Interaction	Not used	Interface	Meaning from behavior
-Stewardship	Not used	Governance	Meaning from consequences
-DAIS‑10 is not a data framework — it is a meaning framework.
++-------------+-------------------------+----------------+-------------------------------+
+| Dimension   | Traditional Analytics   | DAIS-10 Layer  | What It Adds                  |
++-------------+-------------------------+----------------+-------------------------------+
+| Trend       | Meaning from time       | Integration    | Direction, momentum,          |
+|             |                         |                | acceleration                  |
++-------------+-------------------------+----------------+-------------------------------+
+| Context     | Meaning from environment| Discovery      | Situational relevance         |
++-------------+-------------------------+----------------+-------------------------------+
+| Structure   | Rarely used             | Alignment      | Meaning from relationships    |
++-------------+-------------------------+----------------+-------------------------------+
+| Intent      | Not used                | Intent         | Meaning from purpose          |
++-------------+-------------------------+----------------+-------------------------------+
+| Interaction | Not used                | Interface      | Meaning from behavior         |
++-------------+-------------------------+----------------+-------------------------------+
+| Stewardship | Not used                | Governance     | Meaning from consequences     |
++-------------+-------------------------+----------------+-------------------------------+
+
+DAIS-10 is not a data framework — it is a meaning framework.
 ```
 
 DAIS‑10 Application Proposal (Streamlined)
