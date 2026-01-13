@@ -35,7 +35,7 @@ Provide clear navigation for readers and implementers
 16.2 Recommended Repository Structure
 Below is the official directory structure for DAIS‑10:
 
-Code
+```Code
 /DAIS-10
 │
 ├── /docs
@@ -93,6 +93,7 @@ Code
 ├── README.md
 ├── LICENSE.md
 └── CHANGELOG.md
+```
 16.3 File Naming Conventions
 To ensure consistency:
 
