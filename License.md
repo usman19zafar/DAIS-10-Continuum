@@ -6,9 +6,9 @@ DAIS‑10™ is a trademark of Dr. Usman Zafar.
 DAIS‑10™ is a semantic framework, classification system, tiering model,
 temporal decay model, scoring methodology, and protocol specification.
 
-======================================================================
+===
 TRADEMARK, BRANDING, AND COMMERCIAL NOTICE
-======================================================================
+===
 
 All rights to the name, logos, branding, and certification marks of DAIS‑10™ are reserved.
 
