@@ -1,4 +1,4 @@
-DAIS‑10™ LICENSE
+# DAIS‑10™ LICENSE
 Copyright © 2025 Dr. Usman Zafar
 
 DAIS‑10™ is a trademark of Dr. Usman Zafar.
