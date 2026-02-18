@@ -1,0 +1,102 @@
+\section{Theorem 1: Dual Failure Law}
+
+\begin{theorem}[Dual Failure Law]
+Let $D(t), A(t) \in \mathbb{R}^n$ be continuously differentiable functions of time.
+Define the misalignment vector
+\[
+E(t) = D(t) - A(t).
+\]
+Then for all $t$ such that $E(t) \neq 0$,
+\[
+\frac{d}{dt} \|E(t)\|
+=
+\frac{E(t)}{\|E(t)\|}
+\cdot
+\left( \dot D(t) - \dot A(t) \right).
+\]
+Consequently, the rate of change of misalignment magnitude decomposes uniquely
+into domain drift and agent adaptation.
+\end{theorem}
+
+\begin{proof}
+
+\textbf{Step 1: Norm Representation}
+
+The Euclidean norm satisfies
+\[
+\|E(t)\| = \sqrt{E(t) \cdot E(t)}.
+\]
+Define
+\[
+\phi(t) = E(t) \cdot E(t).
+\]
+Then
+\[
+\|E(t)\| = \sqrt{\phi(t)}.
+\]
+
+\textbf{Step 2: Chain Rule}
+
+Using the chain rule,
+\[
+\frac{d}{dt} \|E(t)\|
+=
+\frac{d}{dt} \sqrt{\phi(t)}
+=
+\frac{1}{2\sqrt{\phi(t)}} \, \phi'(t).
+\]
+
+\textbf{Step 3: Differentiate the Inner Product}
+
+Since $\phi(t) = E(t) \cdot E(t)$, we apply the product rule:
+\[
+\phi'(t)
+=
+2 E(t) \cdot \dot E(t).
+\]
+
+Substituting,
+\[
+\frac{d}{dt} \|E(t)\|
+=
+\frac{1}{2\|E(t)\|} \cdot 2 E(t) \cdot \dot E(t).
+\]
+
+Canceling the factor of 2,
+\[
+\frac{d}{dt} \|E(t)\|
+=
+\frac{E(t) \cdot \dot E(t)}{\|E(t)\|}.
+\]
+
+\textbf{Step 4: Substitute Error Dynamics}
+
+By definition,
+\[
+E(t) = D(t) - A(t).
+\]
+Differentiating,
+\[
+\dot E(t) = \dot D(t) - \dot A(t).
+\]
+
+Therefore,
+\[
+\frac{d}{dt} \|E(t)\|
+=
+\frac{E(t)}{\|E(t)\|}
+\cdot
+\left( \dot D(t) - \dot A(t) \right).
+\]
+
+\textbf{Step 5: Uniqueness of Decomposition}
+
+Because differentiation in vector spaces is linear and unique,
+\[
+\dot E(t) = \dot D(t) - \dot A(t)
+\]
+admits no additional independent term.
+Hence misalignment growth has exactly two generators:
+domain drift $\dot D(t)$ and agent adaptation $\dot A(t)$.
+
+\end{proof}
