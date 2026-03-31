@@ -2,7 +2,7 @@ DAIS‑10 — The Birth of a Discipline
 The World’s First Living‑Data Standards Framework
 DAIS‑10 is a breakthrough standards framework that treats data not as static information, but as a living entity — something that ages, drifts, fades, and evolves. A dataset is never still. Even in silence, it is changing.
 
-text
+text!
 Data is:
 ```code
 - aging
